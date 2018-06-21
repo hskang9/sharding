@@ -11,7 +11,7 @@ DIR = os.path.dirname(__file__)
 
 
 def get_smc_source_code() -> str:
-    file_path = os.path.join(DIR, '../sharding_manager.v.py')
+    file_path = os.path.join(DIR, '../sharding_manager.vy')
     smc_source_code = open(file_path).read()
     return smc_source_code
 
